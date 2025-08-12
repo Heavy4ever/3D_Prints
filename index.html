@@ -1,49 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio de Artículos</title>
-    <link rel="stylesheet" href="css_styles.css">
+  <meta charset="UTF-8">
+  <title>Artículos</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Mi Blog de Artículos</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Categorías</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="categorias">
-            <h2>Categorías</h2>
-            <div class="categoria-list">
-                <!-- Dinámico (se llenará con JavaScript o backend) -->
-                <div class="categoria">Tecnología</div>
-                <div class="categoria">Diseño</div>
-            </div>
-        </section>
-
-        <section class="articulos">
-            <h2>Últimos Artículos</h2>
-            <div class="articulo">
-                <h3>Título del Artículo 1</h3>
-                <p>Descripción breve del artículo...</p>
-                <span class="categoria">Tecnología</span>
-            </div>
-            <div class="articulo">
-                <h3>Título del Artículo 2</h3>
-                <p>Descripción breve del artículo...</p>
-                <span class="categoria">Diseño</span>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Mi Sitio</p>
-    </footer>
+  <h1>Artículos</h1>
+  <div id="categorias"></div>
+  <div id="articulos"></div>
+  <script src="js/main.js"></script>
 </body>
 </html>
