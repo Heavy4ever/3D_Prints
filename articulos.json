@@ -1,0 +1,12 @@
+[
+  {
+    "titulo": "Primer artículo",
+    "categoria": "Tecnología",
+    "contenido": "Este es el contenido del primer artículo."
+  },
+  {
+    "titulo": "Segundo artículo",
+    "categoria": "Arte",
+    "contenido": "Contenido sobre arte y creatividad."
+  }
+]
