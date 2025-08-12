@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel de Administración</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Panel de Admin</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Artículos</a></li>
+                <li><a href="#">Categorías</a></li>
+                <li><a href="#">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="admin-form">
+            <h2>Añadir Artículo</h2>
+            <form>
+                <input type="text" placeholder="Título" required>
+                <textarea placeholder="Contenido" required></textarea>
+                <select>
+                    <option>Categoría 1</option>
+                    <option>Categoría 2</option>
+                </select>
+                <input type="file" accept="image/*">
+                <button type="submit">Guardar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
